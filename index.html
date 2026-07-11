@@ -4,69 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblia Ortodoxa - Documente Legale</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            background-color: #f4f5f6;
-            color: #2d3748;
-        }
-        .container {
-            text-align: center;
-            padding: 40px 30px;
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-            max-width: 400px;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        h2 {
-            margin-top: 0;
-            margin-bottom: 10px;
-            font-size: 24px;
-            color: #1a202c;
-        }
-        p {
-            font-size: 14px;
-            color: #718096;
-            margin-bottom: 30px;
-        }
-        .btn {
-            display: block;
-            margin: 12px 0;
-            padding: 14px;
-            background-color: #f7fafc;
-            color: #2b6cb0;
-            text-decoration: none;
-            font-weight: 600;
-            border-radius: 8px;
-            border: 1px solid #e2e8f0;
-            transition: all 0.2s ease;
-        }
-        .btn:hover {
-            background-color: #ebf8ff;
-            border-color: #bee3f8;
-            transform: translateY(-1px);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <div class="container">
-        <h2>Biblia Ortodoxă</h2>
+    <div class="lang-switcher">
+        <a href="index.html" class="lang-btn active">RO</a>
+        <a href="index-en.html" class="lang-btn">EN</a>
+    </div>
+
+    <div class="page-content">
+        <span class="page-icon">📖</span>
+        <h1>Biblia Ortodoxă</h1>
         <p>Documente legale și informații privind aplicația mobilă.</p>
         
-        <a class="btn" href="/politica-de-confidentialitate.html">
-            Politica de Confidențialitate
+        <a class="notion-page-link" href="/politica-de-confidentialitate.html">
+            <span class="notion-page-icon">📄</span> Politica de Confidențialitate
         </a>
         
-        <a class="btn" href="/termeni-si-conditii-de-utilizare.html">
-            Termeni și Condiții de Utilizare
+        <a class="notion-page-link" href="/termeni-si-conditii-de-utilizare.html">
+            <span class="notion-page-icon">📄</span> Termeni și Condiții de Utilizare
         </a>
     </div>
 
