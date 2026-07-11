@@ -7,13 +7,16 @@ body {
     line-height: 1.5;
     padding: 0;
     margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .page-content {
     max-width: 708px;
     margin: 0 auto;
-    padding: 10vh 20px 10vh;
+    padding: 96px 40px 96px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 h1 {
@@ -130,4 +133,44 @@ a:hover {
     justify-content: center;
     margin-right: 8px;
     font-size: 18px;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 600px) {
+    .page-content {
+        padding: 80px 24px 48px;
+    }
+    
+    h1 {
+        font-size: 32px;
+        margin-top: 0.8em;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    p, li {
+        font-size: 15px;
+    }
+    
+    .page-icon {
+        font-size: 60px;
+        margin-bottom: 16px;
+    }
+
+    .lang-switcher {
+        top: 16px;
+        right: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .page-content {
+        padding: 72px 16px 36px;
+    }
 }
